@@ -16,6 +16,10 @@ and containerized services.
 - Job status tracking and result display
 - Fully containerized with Docker Compose
 
+> Note: Only the `markitdown` (pypdf-based) extraction path is fully implemented.
+> OCR-based engines are included as placeholders to demonstrate async job handling
+> and engine selection within the given take-home scope.
+
 ## Architecture
 
 The system is composed of four services:
